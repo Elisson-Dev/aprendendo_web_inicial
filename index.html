@@ -53,17 +53,60 @@
         <hr>
         <!-- Seção de formulários -->
          <section>
-            <h2>Contato</h2>
+            <h2>Orçamento</h2>
             <form action="" method="get"> 
-                <label>Nome:</label><br>
-                <input type="text" name="nome"><br><br>
-                <label>E-mail:</label><br>
-                <input type="text" name="email"><br><br>
+                <label>Nome:<br>
+                    <input type="text" required name="nome" title="Insira seu nome"><br><br>
+                </label>
+                <label>E-mail:<br>
+                    <input type="email" required name="email"><br><br>
+                </label>
+                <label>Data de Ida:<br>
+                    <input type="date" name="dataIda"><br><br>
+                </label>
+                <label>Data de Volta:<br>
+                    <input type="date" name="dataVolta"><br><br>
+                </label>
+                <label>Quantidade de pessoas: <br>
+                    <input type="number" name="quantidadePessoas">
+                </label><br><br>
+                <fieldset>
+                    <legend><b>Quais serviços inclusos</b></legend>
+                        <label>
+                            <input type="checkbox" name="passagens" value="Passagens">Compra de Passagens
+                        </label>
+                        <label>
+                            <br><input type="checkbox" name="hospedagem" value="Hospedagem">Reserva de Hospedagem
+                        </label>
+                        <label>
+                            <br><input type="checkbox" name="veiculo" value="Veiculo">Aluguel de veículos
+                        </label>
+                    </fieldset><br>
+                    <fieldset>
+                        <legend>Forma de Pagamento:</legend>
+                        <label>
+                            <input type="radio" name="formaPagamento" value="cartaoDeCredito"> Cartão de crédito
+                        </label>
+                        <label>
+                            <br><input type="radio" name="formaPagamento" value="boleto"> Boleto
+                        </label>
+                        <label>
+                            <br><input type="radio" name="formaPagamento" value="pix"> Pix
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Escolha o prazo para pagamento</legend>
+                        <select name="prazoPagamento">
+                            <option value="aVista">À Vista</option>
+                            <option selected value="cincoVezesSemJuros">5x Sem Juros</option>
+                            <option value="dezVezesComJuros">10x com Juros</option>
+                        </select>
+                    </fieldset>
                 <label>Comentário:</label><br>
                 <textarea rows="5" nome="comentario"></textarea><br>
                 <button>Salvar</button>
             </form>
-
          </section>
          <hr>
         <!-- Seção de Tabelas-->
