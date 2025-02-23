@@ -1,0 +1,57 @@
+body {
+    font-weight: 400;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2.2em;
+    color: #818181;
+    margin: 0;
+}
+
+header {
+    background-color: #f4511e;
+    color: white;
+}
+
+section, footer {
+    margin: 40px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #303030;
+    padding: 15px;
+    text-align: center;
+    color: green;
+}
+
+h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    text-align: center;
+}
+
+nav li a {
+    padding: 10px;
+    color: wheat;
+    text-decoration: none;
+}
+
+nav li {
+    float: left;
+}
+
+nav dl {
+    float: right;
+    list-style: none;
+}
+
+nav {
+    font: 12px;
+    letter-spacing: 4px;
+    height: 50px;
+    background-color: rgb(108, 14, 170);
+    padding-right: 40px;
+
+}
