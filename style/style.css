@@ -56,3 +56,25 @@ nav {
     padding-right: 40px;
 
 }
+
+table {
+    width: 100%;
+}
+
+table td {
+    color: #303030;
+    padding: 6px;
+}
+
+table tr:nth-child(even) {
+    background-color: rgb(188, 243, 157);
+}
+
+table tr:nth-child(odd) {
+    background-color: #e5f175;
+}
+
+table thead th{
+    color: red;
+    background-color: #003ab8;
+}
