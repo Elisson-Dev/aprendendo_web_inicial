@@ -78,3 +78,12 @@ table thead th{
     color: red;
     background-color: #003ab8;
 }
+
+
+#conhecaNossaFauna .figuras figure {
+    display: inline-block;
+}
+
+#conhecaNossaFauna .figuras, #conhecaNossaFlora .video {
+    text-align: center;
+}
